@@ -66,7 +66,7 @@ export default function Hero() {
         opacity: 0.35, pointerEvents: "none",
       }} />
 
-      {/* Accent blob — single, subtle, no multi-color */}
+      {/* Accent blob: single, subtle, no multi-color */}
       <div style={{
         position: "absolute",
         top: "30%", left: "55%",
@@ -101,7 +101,7 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        {/* Name — three-line clip reveal */}
+        {/* Name: three-line clip reveal */}
         {[
           { word: "Meshach", color: "var(--white)",  delay: 0.2  },
           { word: "Edo",     color: "var(--white)",  delay: 0.28 },

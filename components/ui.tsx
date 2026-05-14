@@ -6,7 +6,7 @@ import { motion, useInView, type Transition } from "framer-motion";
 const SPRING: Transition = { duration: 0.75, ease: [0.16, 1, 0.3, 1] };
 const FADE:   Transition = { duration: 0.55, ease: "easeOut" };
 
-/** Clips text behind a mask and sweeps it up — premium heading reveal */
+/** Clips text behind a mask and sweeps it up: premium heading reveal */
 export function Reveal({
   children,
   delay = 0,
@@ -58,7 +58,7 @@ export function FadeUp({
   );
 }
 
-/** Section label — teal, uppercase, tiny */
+/** Section label: teal, uppercase, tiny */
 export function Label({ children }: { children: ReactNode }) {
   return (
     <p
