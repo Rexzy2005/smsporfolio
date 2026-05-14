@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import BackToTop from "@/components/BackToTop";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 import About from "@/components/About";
@@ -24,6 +25,7 @@ export default function Home() {
       <Testimonials />
       <Contact />
       <Footer />
+      <BackToTop />
     </main>
   );
 }

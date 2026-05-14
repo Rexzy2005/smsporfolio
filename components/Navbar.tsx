@@ -93,7 +93,7 @@ export default function Navbar() {
               <line x1="5.5" y1="10" x2="5.5" y2="12" stroke="var(--border-2)" strokeWidth="1.5" strokeLinecap="round"/>
               <line x1="16.5" y1="10" x2="16.5" y2="12" stroke="var(--accent)"   strokeWidth="1.5" strokeLinecap="round"/>
             </svg>
-            <span style={{
+            <span className="nav-name" style={{
               fontWeight: 800, fontSize: 15,
               letterSpacing: "-0.025em",
               color: "var(--text)",
@@ -387,14 +387,16 @@ export default function Navbar() {
 
       <style>{`
         @media (min-width: 768px) {
-          .md-nav   { display: flex !important; }
-          .md-right { display: flex !important; }
+          .md-nav      { display: flex !important; }
+          .md-right    { display: flex !important; }
           .mobile-menu-btn { display: none !important; }
+          .nav-name    { display: inline !important; }
         }
         @media (max-width: 767px) {
-          .md-nav   { display: none !important; }
-          .md-right { display: none !important; }
+          .md-nav      { display: none !important; }
+          .md-right    { display: none !important; }
           .mobile-menu-btn { display: flex !important; }
+          .nav-name    { display: none !important; }
         }
       `}</style>
     </>
