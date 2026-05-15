@@ -104,7 +104,7 @@ export default function Hero() {
         {/* Name: three-line clip reveal */}
         {[
           { word: "Meshach", color: "var(--white)",  delay: 0.2  },
-          { word: "Edo",     color: "var(--white)",  delay: 0.28 },
+          { word: "Ebo",     color: "var(--white)",  delay: 0.28 },
           { word: "Sunday.", color: "var(--subtle)", delay: 0.36 },
         ].map(({ word, color, delay }) => (
           <div key={word} style={{ overflow: "hidden", marginBottom: word === "Sunday." ? 40 : 4 }}>
