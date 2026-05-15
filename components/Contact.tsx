@@ -8,7 +8,7 @@ import { Reveal, FadeUp, Label } from "./ui";
 const socials = [
   { Icon: GithubIcon,   label: "GitHub",     href: "#" },
   { Icon: LinkedinIcon, label: "LinkedIn",   href: "#" },
-  { Icon: TwitterIcon,  label: "Twitter / X", href: "#" },
+  { Icon: TwitterIcon,  label: "Twitter / X", href: "https://x.com/sms_scandal?s=21" },
 ];
 
 export default function Contact() {
@@ -62,8 +62,8 @@ export default function Contact() {
             <FadeUp delay={0.15}>
               <div style={{ marginBottom: 32 }}>
                 {[
-                  { val: "meshach@example.com",   meta: "Email"    },
-                  { val: "@meshach_web3",         meta: "Telegram" },
+                  { val: "meshachsunday86@gmail.com", meta: "Email"    },
+                  { val: "@sms_web3",              meta: "Telegram" },
                 ].map(({ val, meta }) => (
                   <a key={meta} href={meta === "Email" ? `mailto:${val}` : "#"}
                     style={{

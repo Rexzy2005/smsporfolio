@@ -359,11 +359,11 @@ export default function Navbar() {
 
                   <div style={{ display: "flex", gap: 10 }}>
                     {[
-                      { Icon: GithubIcon,   label: "GitHub"   },
-                      { Icon: LinkedinIcon, label: "LinkedIn" },
-                      { Icon: TwitterIcon,  label: "Twitter"  },
-                    ].map(({ Icon, label }) => (
-                      <a key={label} href="#" aria-label={label}
+                      { Icon: GithubIcon,   label: "GitHub",  href: "#" },
+                      { Icon: LinkedinIcon, label: "LinkedIn", href: "#" },
+                      { Icon: TwitterIcon,  label: "Twitter",  href: "https://x.com/sms_scandal?s=21" },
+                    ].map(({ Icon, label, href }) => (
+                      <a key={label} href={href} aria-label={label}
                         style={{
                           width: 36, height: 36, borderRadius: 8,
                           border: "1px solid var(--border-2)",
